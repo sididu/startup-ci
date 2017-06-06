@@ -1,0 +1,6 @@
+I updated the codeigniter to 3.1.0 and the ion auth to the new release on 07/05/2016.
+
+Import the ion_auth located in install_items/sql into your MySQL database through phpMyAdmin.
+
+Open the config.php located in applications/config and set the base_url.
+Open the database.php in application/config and add you database information.
