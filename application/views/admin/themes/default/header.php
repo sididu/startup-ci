@@ -366,10 +366,10 @@
                 </span>
               </a>
               <ul class="<?php if($this->uri->segment(2)=="administrasi"){echo "active";}?> treeview-menu">
-                <li <?php if($this->uri->segment(3)=="kasus"){echo 'class="active"';}?>><a href="<?= base_url() ?>admin/administrasi/kasus"><i class="fa fa-circle-o"></i> Tambah Kasus Baru</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> Database Jaksa</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> Kategori Subyek</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> Pasal Disangkakan</a></li>
+                <li <?php if($this->uri->segment(3)=="kasus"){echo 'class="active"';}?>> <a href="<?= base_url() ?>admin/administrasi/kasus"><i class="fa fa-circle-o"></i> Tambah Kasus Baru</a></li>
+                <li <?php if($this->uri->segment(3)=="jaksa"){echo 'class="active"';}?>> <a href="<?= base_url() ?>admin/administrasi/jaksa"><i class="fa fa-circle-o"></i> Database Jaksa</a></li>
+                <li <?php if($this->uri->segment(3)=="kategori_subyek"){echo 'class="active"';}?>><a href="<?= base_url() ?>admin/administrasi/kategori_subyek"><i class="fa fa-circle-o"></i> Kategori Subyek</a></li>
+                <li <?php if($this->uri->segment(3)=="pasal"){echo 'class="active"';}?>><a href="<?= base_url() ?>admin/administrasi/pasal"><i class="fa fa-circle-o"></i> Pasal Disangkakan</a></li>
               </ul>
             </li>
             <li class=" <?php if($this->uri->segment(2)=="peraturan"){echo "active";}?>treeview">

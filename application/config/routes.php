@@ -59,6 +59,32 @@ $route['admin/home/dashboard1'] = 'admin/admin1';
 //register - kasus
 $route['admin/register/kasus'] = 'admin/kasus';
 $route['admin/register/kasus/create'] = 'admin/kasus/create';
+$route['admin/register/kasus/edit/(:any)'] = 'admin/kasus/edit/$1';
+$route['admin/register/kasus/delete/(:any)'] = 'admin/kasus/delete/$1';
+
+$route['admin/register/subyek'] = 'admin/subyek';
+$route['admin/register/rp2'] = 'admin/rp2';
+$route['admin/register/rp3mum'] = 'admin/rp3mum';
+$route['admin/register/rp3sus'] = 'admin/rp3sus';
+
+//administrasi - jaksa
+$route['admin/administrasi/jaksa'] = 'admin/jaksa';
+$route['admin/administrasi/jaksa/create'] = 'admin/jaksa/create';
+$route['admin/administrasi/jaksa/edit/(:any)'] = 'admin/jaksa/edit/$1';
+$route['admin/administrasi/jaksa/delete/(:any)'] = 'admin/jaksa/delete/$1';
+
+//administrasi - kategori subyek
+$route['admin/administrasi/kategori_subyek'] = 'admin/kategori_subyek';
+$route['admin/administrasi/kategori_subyek/create'] = 'admin/kategori_subyek/create';
+$route['admin/administrasi/kategori_subyek/edit/(:any)'] = 'admin/kategori_subyek/edit/$1';
+$route['admin/administrasi/kategori_subyek/delete/(:any)'] = 'admin/kategori_subyek/delete/$1';
+
+//administrasi - pasal disangkakan
+$route['admin/administrasi/pasal'] = 'admin/pasal';
+$route['admin/administrasi/pasal/create'] = 'admin/pasal/create';
+$route['admin/administrasi/pasal/edit/(:any)'] = 'admin/pasal/edit/$1';
+$route['admin/administrasi/pasal/delete/(:any)'] = 'admin/pasal/delete/$1';
+
 
 //brands routes
 $route['admin/brands'] = 'admin/brands';
