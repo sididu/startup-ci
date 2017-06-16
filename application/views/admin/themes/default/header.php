@@ -353,8 +353,8 @@
               </a>
               <ul class="treeview-menu">
                 <li <?php if($this->uri->segment(3)=="kasus"){echo 'class="active"';}?> ><a href="<?= base_url() ?>admin/register/kasus"><i class="fa fa-circle-o"></i> Daftar Kasus</a></li>
-                <li <?php if($this->uri->segment(3)=="rp2s"){echo 'class="active"';}?> ><a href="<?= base_url() ?>admin/register/rp2s"><i class="fa fa-circle-o"></i> Penyelidikan</a></li>
-                <li <?php if($this->uri->segment(3)=="rp3s"){echo 'class="active"';}?> ><a href="<?= base_url() ?>admin/register/rp3s"><i class="fa fa-circle-o"></i> Penyelidikan Umum</a></li>
+                <li <?php if($this->uri->segment(3)=="rp2"){echo 'class="active"';}?> ><a href="<?= base_url() ?>admin/register/rp2"><i class="fa fa-circle-o"></i> Penyelidikan</a></li>
+                <li <?php if($this->uri->segment(3)=="rp3mum"){echo 'class="active"';}?> ><a href="<?= base_url() ?>admin/register/rp3mum"><i class="fa fa-circle-o"></i> Penyelidikan Umum</a></li>
                 <li <?php if($this->uri->segment(3)=="rp3sus"){echo 'class="active"';}?> ><a href="<?= base_url() ?>admin/register/rp3sus"><i class="fa fa-circle-o"></i> Penyelidikan Khusus</a></li>
               </ul>
             </li>

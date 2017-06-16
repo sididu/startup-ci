@@ -6,14 +6,14 @@
           <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
             <li class="active">Register</li>
-            <li class="active">Register Benda Sitaan</li>
+            <li class="active">Register Perkara Penyelidikan</li>
           </ol>
         </section>
         <!-- Main content -->
         <section class="content">
           <div class="box box-default">
             <div class="box-header with-border">
-              <h3 class="box-title">REGISTER BENDA SITAAN</h3>
+              <h3 class="box-title">REGISTRASI PERKARA PENYELIDIKAN</h3>
               <!-- <div class="box-tools pull-right">
                 <a href="<?= base_url() ?>admin/register/kasus" class="btn btn-warning">Back to list kasus</a>
               </div> -->

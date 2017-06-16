@@ -71,4 +71,10 @@ class Kasus extends Admin_Controller {
         $this->load->view($this->_container, $data);
     }
 
+    public function naik_lidik() {
+        
+        $data['page'] = $this->config->item('ci_my_admin_template_dir_admin') . "perkara_penyelidikan_create";
+        $this->load->view($this->_container, $data);
+    }
+
 }

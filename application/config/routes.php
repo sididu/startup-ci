@@ -59,13 +59,33 @@ $route['admin/home/dashboard1'] = 'admin/admin1';
 //register - kasus
 $route['admin/register/kasus'] = 'admin/kasus';
 $route['admin/register/kasus/create'] = 'admin/kasus/create';
+$route['admin/register/kasus/naik_lidik'] = 'admin/kasus/naik_lidik';
 $route['admin/register/kasus/edit/(:any)'] = 'admin/kasus/edit/$1';
 $route['admin/register/kasus/delete/(:any)'] = 'admin/kasus/delete/$1';
 
 $route['admin/register/subyek'] = 'admin/subyek';
+
+// Register - RP2
 $route['admin/register/rp2'] = 'admin/rp2';
+$route['admin/register/rp2/geledah'] = 'admin/rp2/geledah';
+$route['admin/register/rp2/naik_dik_mum'] = 'admin/rp2/naik_dik_mum';
+$route['admin/register/rp2/edit/(:any)'] = 'admin/rp2/edit/$1';
+$route['admin/register/rp2/delete/(:any)'] = 'admin/rp2/delete/$1';
+
+// Register - RP3MUM
 $route['admin/register/rp3mum'] = 'admin/rp3mum';
+$route['admin/register/rp3mum/geledah'] = 'admin/rp3mum/geledah';
+$route['admin/register/rp3mum/naik_dik_sus'] = 'admin/rp3mum/naik_dik_sus';
+$route['admin/register/rp3mum/edit/(:any)'] = 'admin/rp3mum/edit/$1';
+$route['admin/register/rp3mum/delete/(:any)'] = 'admin/rp3mum/delete/$1';
+
+// Register - RP3SUS
 $route['admin/register/rp3sus'] = 'admin/rp3sus';
+$route['admin/register/rp3sus/geledah'] = 'admin/rp3sus/geledah';
+$route['admin/register/rp3sus/tahapan'] = 'admin/rp3sus/tahapan';
+$route['admin/register/rp3sus/edit/(:any)'] = 'admin/rp3sus/edit/$1';
+$route['admin/register/rp3sus/delete/(:any)'] = 'admin/rp3sus/delete/$1';
+
 
 //administrasi - jaksa
 $route['admin/administrasi/jaksa'] = 'admin/jaksa';

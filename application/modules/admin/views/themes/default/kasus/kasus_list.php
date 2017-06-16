@@ -16,10 +16,10 @@
       <h3 class="box-title fc-toolbar">Kasus Baru</h3>
       <div class="box-tools pull-right">
         <a href="<?= base_url() ?>admin/register/kasus/create" class="btn btn-app btn-xs"><span class="badge bg-yellow">3</span><i class="fa fa-plus"></i>RP-1</a>
-        <a href="#" class="btn btn-app"><span class="badge bg-yellow">3</span><i class="fa fa-list-ul"></i>RP-1</a>
-        <a href="#" class="btn btn-app"><span class="badge bg-yellow">3</span><i class="fa fa-list-ul"></i>RP-2</a>
-        <a href="#" class="btn btn-app "><span class="badge bg-yellow">3</span><i class="fa fa-list-ul"></i>RP-3MUM</a>
-        <a href="#" class="btn btn-app "><span class="badge bg-yellow">3</span><i class="fa fa-list-ul"></i>RP-3SUS</a>
+        <a href="<?= base_url() ?>admin/register/kasus" class="btn btn-app"><span class="badge bg-yellow">3</span><i class="fa fa-list-ul"></i>RP-1</a>
+        <a href="<?= base_url() ?>admin/register/rp2" class="btn btn-app"><span class="badge bg-yellow">3</span><i class="fa fa-list-ul"></i>RP-2</a>
+        <a href="<?= base_url() ?>admin/register/rp3mum" class="btn btn-app "><span class="badge bg-yellow">3</span><i class="fa fa-list-ul"></i>RP-3MUM</a>
+        <a href="<?= base_url() ?>admin/register/rp3sus" class="btn btn-app "><span class="badge bg-yellow">3</span><i class="fa fa-list-ul"></i>RP-3SUS</a>
       </div>
     </div>
     <div class="box-body table-responsive">
@@ -49,7 +49,7 @@
                             <div class="btn-group" role="group" aria-label="...">
                               <a href='<?= base_url('admin/register/kasus/edit/'.$list['id']) ?>' class="btn btn-default btn-sm"><i class="glyphicon glyphicon-pencil"></i></a>
                               <a href='<?= base_url('admin/register/kasus/delete/'.$list['id']) ?>' class="btn btn-default btn-sm"><i class="glyphicon glyphicon-minus-sign"></i></a>
-                              <a href='<?= base_url() ?>admin/register/rp2' class="btn btn-success btn-sm">LIDIK</a>
+                              <a href='<?= base_url() ?>admin/register/kasus/naik_lidik' class="btn btn-success btn-sm">LIDIK</a>
                             </div>
                         </td>
                     </tr>

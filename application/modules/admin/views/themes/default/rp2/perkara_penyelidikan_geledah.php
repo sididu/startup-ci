@@ -146,7 +146,7 @@
             
               </div>
               <div class="box-footer">
-                <a href="<?= base_url() ?>admin/register/kasus" class="btn btn-danger"> BATAL</a>
+                <a href="<?= base_url() ?>admin/register/rp2" class="btn btn-danger"> BATAL</a>
                 <div class="box-tools pull-right">
                   <button type="reset" href="#" class="btn btn-warning"> CLEAR</button>
                   <button type="submit" href="#" class="btn btn-success"> KIRIM</button>
