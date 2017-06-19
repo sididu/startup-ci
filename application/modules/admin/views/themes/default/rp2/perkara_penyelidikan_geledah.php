@@ -32,7 +32,7 @@
                 <!-- /.box-header -->
                   <div class="row"> 
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                      <h4>DATA PELAPOR</h4>
+                      <h4>DATA SUBYEK</h4>
                       <!-- Surat Perintah -->
                       <div class="form-group">
                         <label>Judul Surat</label>

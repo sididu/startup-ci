@@ -85,14 +85,14 @@
                         <!-- text input -->
                       <h4>DATA SUBYEK</h4>
                       <div class="form-group">
-                        <label>Terlapor</label>
+                        <label>Nama Terlapor</label>
                         <input type="text" class="form-control" placeholder="Enter ..." id="nama_terlapor" name="nama_terlapor">
                       </div>
                         <!-- textarea -->
-                      <div class="form-group">
+                      <!-- <div class="form-group">
                         <label>Lokasi Kejadian</label>
                         <textarea class="form-control" rows="3" placeholder="Enter ..." id="lokasi_kejadian-subyek" name="lokasi_kejadian-subyek"></textarea>
-                      </div>
+                      </div> -->
 
                         <!-- small box -->
                         <!-- text input -->

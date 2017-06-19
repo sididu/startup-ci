@@ -12,7 +12,7 @@
         <section class="content">
           <div class="box box-default">
             <div class="box-header with-border">
-              <h3 class="box-title">Ubah Kasus</h3>
+              <h3 class="box-title">Laporan Kasus Baru</h3>
               <!-- <div class="box-tools pull-right">
                 <a href="<?= base_url() ?>admin/register/kasus" class="btn btn-warning">Back to list kasus</a>
               </div> -->
@@ -35,23 +35,23 @@
                       <!-- Nama Lengkap -->
                       <div class="form-group">
                         <label>Nama Lengkap</label>
-                        <input type="text" class="form-control" placeholder="Enter ..." id="nama_lengkap" name="nama_lengkap"></input>
+                        <input type="text" class="form-control" value="<?=$kasus->nama_lengkap?>" placeholder="Enter ..." id="nama_lengkap" name="nama_lengkap"></input>
                       </div>
 
                       <!-- Alamat -->
                       <div class="form-group">
                         <label>Alamat</label>
-                        <textarea class="form-control" rows="2" placeholder="Enter ..." id="alamat" name="alamat"></textarea>
+                        <textarea class="form-control" rows="2" value="<?=$kasus->alamat?>" placeholder="Enter ..." id="alamat" name="alamat"></textarea>
                       </div>
                       <!-- Kota -->
                       <div class="form-group">
                         <label>Kota</label>
-                        <input type="text" class="form-control" placeholder="Enter ..." id="kota" name="kota">
+                        <input type="text" class="form-control" value="<?=$kasus->kota?>" placeholder="Enter ..." id="kota" name="kota">
                       </div>
                       <!-- KodePos -->
                       <div class="form-group">
                         <label>Kode Pos</label>
-                        <input type="text" class="form-control" placeholder="Enter ..." id="kodepos" name="kodepos">
+                        <input type="text" class="form-control" value="<?=$kasus->kodepos?>" placeholder="Enter ..." id="kodepos" name="kodepos">
                       </div>
                     </div>
 
@@ -60,12 +60,12 @@
                       <!-- Judul Kasus -->
                       <div class="form-group">
                         <label>Judul Kasus</label>
-                        <textarea class="form-control" rows="2" placeholder="Enter ..." id="judul_kasus" name="judul_kasus"></textarea>
+                        <textarea class="form-control" rows="2" value="<?=$kasus->judul_kasus?>" placeholder="Enter ..." id="judul_kasus" name="judul_kasus"></textarea>
                       </div>
                       <!-- Lokasi -->
                       <div class="form-group">
                         <label>Lokasi Kejadian</label>
-                        <textarea class="form-control" rows="1" placeholder="Enter ..." id="lokasi_kejadian" name="lokasi_kejadian"></textarea>
+                        <textarea class="form-control" rows="1" value="<?=$kasus->lokasi_kejadian?>" placeholder="Enter ..." id="lokasi_kejadian" name="lokasi_kejadian"></textarea>
                       </div>
                       <!-- Tanggal Kejadian -->
                       <div class="form-group">
@@ -74,7 +74,7 @@
                           <div class="input-group-addon">
                             <i class="fa fa-calendar"></i>
                           </div>
-                          <input type="text" class="form-control pull-right" id="datepicker" id="tanggal_kejadian" name="tanggal_kejadian">
+                          <input type="text" class="form-control pull-right" value="<?=$kasus->tanggal_kejadian?>" id="datepicker" id="tanggal_kejadian" name="tanggal_kejadian">
                         </div>
                         <!-- /.input group -->
                       </div>
@@ -85,27 +85,27 @@
                         <!-- text input -->
                       <h4>DATA SUBYEK</h4>
                       <div class="form-group">
-                        <label>Terlapor</label>
-                        <input type="text" class="form-control" placeholder="Enter ..." id="nama_terlapor" name="nama_terlapor">
+                        <label>Nama Terlapor</label>
+                        <input type="text" class="form-control" value="<?=$subyek->nama_terlapor?>" placeholder="Enter ..." id="nama_terlapor" name="nama_terlapor">
                       </div>
                         <!-- textarea -->
-                      <div class="form-group">
+                      <!-- <div class="form-group">
                         <label>Lokasi Kejadian</label>
                         <textarea class="form-control" rows="3" placeholder="Enter ..." id="lokasi_kejadian-subyek" name="lokasi_kejadian-subyek"></textarea>
-                      </div>
+                      </div> -->
 
                         <!-- small box -->
                         <!-- text input -->
                       <div class="form-group">
                         <label> Lembaga</label>
-                        <input type="text" class="form-control" placeholder="Enter ..." id="lembaga" name="lembaga">
+                        <input type="text" class="form-control" value="<?=$subyek->lembaga?>"placeholder="Enter ..." id="lembaga" name="lembaga">
                       </div>
 
                         <!-- /.box-header -->
 
                       <div class="form-group">
                         <label>Kategori Subyek</label>
-                        <select class="form-control select2" style="width: 100%;" id="kategori_subyek" name="kategori_subyek">
+                        <select class="form-control select2" value="<?=$subyek->kategori_subyek?>" style="width: 100%;" id="kategori_subyek" name="kategori_subyek">
                           <option selected="selected">SWASTA</option>
                           <option>PNS</option>
                           <option>Hakim</option>

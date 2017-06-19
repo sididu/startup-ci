@@ -33,13 +33,13 @@
                 <th width="15%">Action</th>
               </tr>
 
-              <?php if (count($tabel_kasus)): ?>
-                <?php foreach ($tabel_kasus as $key => $list): ?>
+              <?php if (count($detail_kasus_subyek)): ?>
+                <?php foreach ($detail_kasus_subyek as $key => $list): ?>
                     <tr>
                         <td><?=$list['id']?></td>
                         <td><?=$list['judul_kasus']?></td>
-                        <td><?=$list['nama_lengkap']?></td>
-                        <td><?=$list['kasus_posisi']?></td>
+                        <td><?=$list['nama_terlapor']?></td>
+                        <td><?=$list['lembaga']?></td>
                         
                         <!-- <td><?=$list['jabatan_resmi']?></td>
                         <td><?=$list['lembaga']?></td> -->
